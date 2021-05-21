@@ -1,0 +1,103 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background-color: #ffffff !important;
+}
+
+.banner {
+  padding-top: 40px;
+  background-color: #3482c3 !important;
+  /* background-image: url("../assets/img/background-mobileapps.png"); */
+  background-position: -250px -200px;
+  background-repeat: no-repeat;
+}
+
+.btn-primary {
+  background-color: #3ca5ff !important;
+  border-style: none !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 8px 80px !important;
+  border-radius: 12px !important;
+}
+.btn-primary:hover {
+  background-color: #2e92eb !important;
+}
+.menu-card {
+  padding: 20px 20px;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #4a4a4a;
+  box-shadow: 11px 15px 30px rgba(224, 224, 224, 0.493);
+}
+.katalog-title,
+.menu-title,
+.menu-price,
+.menu-old-price {
+  font-weight: 700;
+}
+.menu-title,
+.menu-price,
+.menu-old-price {
+  font-size: 17px;
+}
+.menu-old-price {
+  color: #9c9c9c;
+}
+.menu-desc {
+  color: #9c9c9c;
+}
+.btn-open {
+  background-color: #1e639d !important;
+  border-style: none !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+.btn-signup {
+  background-color: #ffa51d !important;
+  border-style: none !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+  border-radius: 12px !important;
+}
+.btn-open:hover {
+  background-color: #18588d !important;
+}
+.img-fluid {
+  margin-bottom: 15px;
+}
+.search-input {
+  padding: 10px 20px;
+  border-style: none !important;
+  border-radius: 15px;
+}
+input:focus {
+  outline: none;
+}
+.search-icon {
+  color: #fff;
+  margin-left: 20px;
+  background-color: #3ca5ff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: 300ms ease-in-out;
+}
+.search-icon:hover {
+  border-radius: 10px;
+  transition: 300ms ease-in-out;
+}
+@media (min-width: 1200px) {
+  .banner {
+    background-position: 700px -200px;
+  }
+  .menu-card:hover {
+    transform: scale(0.95);
+  }
+}
