@@ -1,103 +1,79 @@
-* {
-  font-family: "Nunito", sans-serif;
-}
 body {
-  background-color: #ffffff !important;
+    background-color: #F5F7FB;
+    font-family: 'Nunito', sans-serif;
+    color: #032B45;
 }
-
-.banner {
-  padding-top: 40px;
-  background-color: #3482c3 !important;
-  /* background-image: url("../assets/img/background-mobileapps.png"); */
-  background-position: -250px -200px;
-  background-repeat: no-repeat;
+.nav-link {
+    font-size: 14px;
 }
-
-.btn-primary {
-  background-color: #3ca5ff !important;
-  border-style: none !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  padding: 8px 80px !important;
-  border-radius: 12px !important;
+ul li {
+    margin: 0px 10px;
 }
-.btn-primary:hover {
-  background-color: #2e92eb !important;
+.active {
+    font-weight: bold;
 }
-.menu-card {
-  padding: 20px 20px;
-  text-align: left;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  color: #4a4a4a;
-  box-shadow: 11px 15px 30px rgba(224, 224, 224, 0.493);
+.profile-picture {
+    border-radius: 200px;
+    width: 200px;
+    margin-bottom: 20px;
 }
-.katalog-title,
-.menu-title,
-.menu-price,
-.menu-old-price {
-  font-weight: 700;
+.profile {
+    margin-top: 80px;
 }
-.menu-title,
-.menu-price,
-.menu-old-price {
-  font-size: 17px;
+.profile h5 {
+    font-size: 20px;
 }
-.menu-old-price {
-  color: #9c9c9c;
+.profile h6 {
+    font-size: 15px;
+    font-weight: 100;
 }
-.menu-desc {
-  color: #9c9c9c;
+.profile .btn {
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #1394E8;
+    border: none;
 }
-.btn-open {
-  background-color: #1e639d !important;
-  border-style: none !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  padding: 8px 20px !important;
-  border-radius: 12px !important;
-  color: white !important;
+.intro {
+    margin-top: 80px;
 }
-.btn-signup {
-  background-color: #ffa51d !important;
-  border-style: none !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  padding: 8px 20px !important;
-  border-radius: 12px !important;
+.intro p {
+    font-size: 15px;
+    text-indent: 40px;
+    text-align: justify;
 }
-.btn-open:hover {
-  background-color: #18588d !important;
+.intro li {
+    font-size: 14px;
 }
-.img-fluid {
-  margin-bottom: 15px;
+.intro .photo {
+    border-radius: 20px;
 }
-.search-input {
-  padding: 10px 20px;
-  border-style: none !important;
-  border-radius: 15px;
+.keahlian {
+    margin: 80px 0px;
 }
-input:focus {
-  outline: none;
+.keahlian p {
+    font-size: 14px;
 }
-.search-icon {
-  color: #fff;
-  margin-left: 20px;
-  background-color: #3ca5ff;
-  padding: 10px 20px;
-  border-radius: 15px;
-  transition: 300ms ease-in-out;
+.keahlian .btn {
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #1394E8;
+    margin: 5px 5px;
 }
-.search-icon:hover {
-  border-radius: 10px;
-  transition: 300ms ease-in-out;
+footer {
+    background-color: #032B45;
+    color: #fff;
+    border-radius: 50px 50px 0px 0px;
+    overflow: hidden;
 }
-@media (min-width: 1200px) {
-  .banner {
-    background-position: 700px -200px;
-  }
-  .menu-card:hover {
-    transform: scale(0.95);
-  }
+footer p {
+    font-size: 13px;
+}
+footer .social-media {
+    font-size: 50px;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    font-weight: 200;
 }
