@@ -3,6 +3,9 @@ body {
     font-family: 'Nunito', sans-serif;
     color: #032B45;
 }
+.btn {
+    border:none;
+}
 .nav-link {
     font-size: 14px;
 }
@@ -18,7 +21,9 @@ ul li {
     margin-bottom: 20px;
 }
 .profile {
-    margin-top: 80px;
+    padding-top:80px!important;
+    padding-bottom: 50px!important;
+    background-color: #EEF1F8;
 }
 .profile h5 {
     font-size: 20px;
@@ -38,7 +43,7 @@ ul li {
     margin-top: 80px;
 }
 .intro p {
-    font-size: 15px;
+    font-size: 14px;
     text-indent: 40px;
     text-align: justify;
 }
@@ -76,4 +81,9 @@ footer .social-media {
 footer a {
     color: #fff;
     font-weight: 200;
+}
+.chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
