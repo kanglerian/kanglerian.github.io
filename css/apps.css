@@ -87,3 +87,9 @@ footer a {
     right: 20px;
     bottom: 20px;
 }
+.pengalaman .kerja span {
+    font-size: 15px;
+}
+.pengalaman .kerja p {
+    font-size: 14px;
+}
