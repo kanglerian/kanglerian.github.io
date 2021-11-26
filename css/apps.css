@@ -56,7 +56,7 @@ ul li {
 .keahlian p {
     font-size: 14px;
 }
-.keahlian .btn {
+.keahlian .btn, #hobby .btn {
     padding: 5px 20px;
     border-radius: 10px;
     background-color: #1394E8;
@@ -89,4 +89,23 @@ footer a {
 }
 .pengalaman .kerja p {
     font-size: 14px;
+}
+
+#form-contact label {
+    font-size: 14px;
+}
+
+#form-contact input, #form-contact textarea {
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+#form-contact .btn {
+    background-color: #1394E8!important;
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+.title-form-contact {
+    margin-bottom: 45px;
 }
