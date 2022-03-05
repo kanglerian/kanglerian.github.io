@@ -12,100 +12,29 @@ body {
 ul li {
     margin: 0px 10px;
 }
-.active {
-    font-weight: bold;
+header {
+    background: rgb(74,93,108);
+    background: linear-gradient(145deg, rgba(74,93,108,1) 0%, rgba(50,54,83,1) 81%); 
+    height: 250px;
+    position: relative;
 }
-.profile-picture {
-    border-radius: 200px;
-    width: 200px;
+.card-header{
+    margin-top: 220px;
+    background: none;
+    border: none;
+}
+.profile-photo {
+    background-image: url('../img/lerian.jpg');
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 10em;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
     margin-bottom: 20px;
 }
-.profile {
-    padding-top:80px!important;
-    padding-bottom: 50px!important;
-    background-color: #EEF1F8;
-}
-.profile h5 {
-    font-size: 20px;
-}
-.profile h6 {
-    font-size: 15px;
-    font-weight: 100;
-}
-.profile .btn {
-    margin-top: 10px;
-    padding: 5px 20px;
-    border-radius: 10px;
-    background-color: #1394E8;
-    border: none;
-}
-.intro p {
-    font-size: 14px;
-    text-indent: 40px;
-    text-align: justify;
-}
-.intro li {
-    font-size: 14px;
-}
-.intro .photo {
-    border-radius: 20px;
-}
-.keahlian {
-    margin: 80px 0px;
-}
-.keahlian p {
-    font-size: 14px;
-}
-.keahlian .btn, #hobby .btn {
-    padding: 5px 20px;
-    border-radius: 10px;
-    background-color: #1394E8;
-    margin: 5px 5px;
-}
-footer {
-    background-color: #032B45;
-    color: #fff;
-    border-radius: 30px 30px 0px 0px;
-    overflow: hidden;
-}
-footer p {
-    font-size: 13px;
-}
-footer .social-media {
-    font-size: 40px;
-    color: #fff;
-}
-footer a {
-    color: #fff;
-    font-weight: 200;
-}
-.chat {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
-.pengalaman .kerja span {
-    font-size: 15px;
-}
-.pengalaman .kerja p {
-    font-size: 14px;
-}
-
-#form-contact label {
-    font-size: 14px;
-}
-
-#form-contact input, #form-contact textarea {
-    border: none;
-    font-size: 14px;
-    border-radius: 10px;
-}
-#form-contact .btn {
-    background-color: #1394E8!important;
-    font-size: 14px;
-    padding: 5px 30px;
-    border-radius: 10px;
-}
-.title-form-contact {
-    margin-bottom: 45px;
+.profile-name{
+    position: relative;
+    bottom: 0px;
 }
