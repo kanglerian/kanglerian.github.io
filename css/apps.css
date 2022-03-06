@@ -64,7 +64,7 @@ header {
 #experience .card {
     padding: 20px;
     border-radius: 0.8em;
-    margin: 20px 20px 0px 20px
+    margin-bottom: 20px;
 }
 
 #experience .company{
