@@ -16,8 +16,10 @@ ul li {
     margin: 0px 10px;
 }
 header {
-    background: rgb(74,93,108);
-    background: linear-gradient(145deg, rgba(74,93,108,1) 0%, rgba(50,54,83,1) 81%); 
+    /* background: rgb(74,93,108); */
+    /* background: linear-gradient(145deg, rgba(74,93,108,1) 0%, rgba(50,54,83,1) 81%);  */
+    background-image: url("../img/assets/img/background-arduino.jpg");
+    background-size: cover;
     height: 250px;
     position: relative;
 }
