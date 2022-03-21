@@ -79,3 +79,23 @@ header {
     font-size: 14px;
     color: #6e6e6e;
 }
+
+#portofolio .card {
+    padding: 20px 20px 20px 20px;
+    border-radius: 0.8em;
+    margin-bottom: 20px;
+}
+
+#portofolio .card-img-top {
+    border-radius: 0.7rem;
+}
+
+#portofolio .btn-primary {
+    border-radius: 0.5rem;
+    background-color: #1F5FAB;
+}
+
+footer p {
+    color: #6e6e6e;
+    font-size: 13px;
+}
