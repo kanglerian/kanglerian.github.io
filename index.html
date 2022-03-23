@@ -9,73 +9,77 @@
   <!-- Bootstrap CSS -->
   <link href="./css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/apps.css">
-  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/apps.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
   <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
   <title>Lerian Febriana</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body onload="setTimeout(myGreeting, 5000)">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_awftk3fs.json"  background="transparent"  speed="1"  style="width: 80px; height: 30px;"  loop  autoplay></lottie-player>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#intro">はじめまして 👋</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#keahlian">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portofolio">Portofolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#hobby">Tasks</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link badge bg-time text-white" id="DigitalCLOCK" onload="showTime()"></a>
-            </li>
-            <li class="nav-item">
-              <audio autoplay loop>
-                <source src="./audio/yoasobi-1.mp3" type="audio/mpeg">
-              </audio>
-            </li>
-          </ul>
-        </div>
+      <a class="navbar-brand" href="index.html">
+        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_awftk3fs.json" background="transparent"
+          speed="1" style="width: 80px; height: 30px" loop autoplay></lottie-player>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">はじめまして 👋</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#keahlian">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobby">Tasks</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link badge bg-time text-white" id="DigitalCLOCK" onload="showTime()"></a>
+          </li>
+          <li class="nav-item">
+            <audio autoplay loop>
+              <source src="./audio/yoasobi-1.mp3" type="audio/mpeg" />
+            </audio>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <header>
-  </header>
-
+  <header></header>
+  <p id="greeting" style="display: none"></p>
   <section id="profile">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12">
           <div class="row card-header justify-content-center">
-            <div class="col-md-2">
+            <div class="col-md-3 col-lg-3">
               <div class="profile-photo"></div>
             </div>
-            <div class="col-md-6 align-self-center">
-              <h5 class="fw-bold ms-3">Lerian Febriana, A.Md.Kom</h5>
-              <p class="ms-3 text-secondary">I'm a Informatics Engineer based in Tasikmalaya, Indonesia</p>
+            <div class="col-md-9 col-lg-5 align-self-center">
+              <h5 class="fw-bold ms-3" id="nama"></h5>
+              <p class="ms-3 text-secondary">
+                I'm a <span id="role"></span> based in <span id="based"></span> 
+              </p>
             </div>
-            <div class="col-md-4 align-self-center">
-              <a href="#portofolio" class="btn btn-outline-secondary btn-sm ms-3 mb-2">View portofolio</a>
-              <button class="btn btn-success btn-sm ms-3"><i class="fa-solid fa-briefcase"></i> Open to Work</button>
+            <div class="col-md-12 col-lg-4 align-self-center">
+              <a href="#portofolio" class="btn btn-outline-secondary btn-sm ms-3">View portofolio</a>
+              <button onclick="myAlert()" class="btn btn-success btn-sm ms-3">
+                <i class="fa-solid fa-briefcase"></i> Open to Work
+              </button>
             </div>
           </div>
         </div>
@@ -83,7 +87,7 @@
     </div>
   </section>
 
-  <hr>
+  <hr />
 
   <section id="about" class="p-4">
     <div class="container">
@@ -92,30 +96,39 @@
           <h5 class="fw-bold mb-2">About me</h5>
         </div>
         <div class="col-md-9">
-          <p>I'm a Informatics Engineer based in Kota Tasikmalaya, Indonesia. I specialise in Web Development, IT Support, IoT Development and Network Engineer. I'm always striving to grow and learn something new.</p>
-          <p>I'm passionate about IoT Development and Electrical Engineering.</p>
+          <p>
+            I'm a Informatics Engineer based in Kota Tasikmalaya, Indonesia. I
+            specialise in Web Development, IT Support, IoT Development and
+            Network Engineer. I'm always striving to grow and learn something
+            new.
+          </p>
+          <p>
+            I'm passionate about IoT Development and Electrical Engineering.
+          </p>
           <div class="about-desc">
             <div class="row">
-              <div class="col-md-4 mb-2">
+              <div class="col-md-4 col-lg-4 mb-2">
                 <h6 class="fw-bold">Location</h6>
                 <a href="https://goo.gl/maps/Mpw895cRtjwgnpWu6" target="_blank">🇮🇩 Kota Tasikmalaya, Indonesia</a>
               </div>
-              <div class="col-md-4 mb-2">
+              <div class="col-md-4 col-lg-4 mb-2">
                 <h6 class="fw-bold">Website</h6>
-                <a href="https://kanglerian.github.io" target="_blank">kanglerian.github.io <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://kanglerian.github.io" target="_blank">kanglerian.github.io
+                  <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
-              <div class="col-md-4 mb-2">
+              <div class="col-md-4 col-lg-4 mb-2">
                 <h6 class="fw-bold">Github</h6>
-                <a href="https://github.com/kanglerian" target="_blank">github.com/kanglerian <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/kanglerian" target="_blank">github.com/kanglerian
+                  <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
-            </div>  
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <hr>
+  <hr />
 
   <section id="skills" class="p-4">
     <div class="container">
@@ -126,49 +139,49 @@
         <div class="col-md-9">
           <div class="row">
             <h5 class="fw-bold mb-3">Front End Development</h5>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-html5"></i> HTML5</label>
-              <input type="range" class="form-range" value="50" disabled>
+              <input type="range" class="form-range" value="50" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-css3-alt"></i> CSS3</label>
-              <input type="range" class="form-range" value="50" disabled>
+              <input type="range" class="form-range" value="50" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-js-square"></i> JavaScript</label>
-              <input type="range" class="form-range" value="50" disabled>
+              <input type="range" class="form-range" value="50" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-vuejs"></i> Vue JS</label>
-              <input type="range" class="form-range" value="70" disabled>
+              <input type="range" class="form-range" value="70" disabled />
             </div>
           </div>
-          <hr>
+          <hr />
           <div class="row">
             <h5 class="fw-bold mb-3">Back End Development</h5>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-php"></i> PHP</label>
-              <input type="range" class="form-range" value="50" disabled>
+              <input type="range" class="form-range" value="50" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 my-2">
               <label class="fw-bold"><i class="fa-brands fa-laravel"></i> Laravel</label>
-              <input type="range" class="form-range" value="70" disabled>
+              <input type="range" class="form-range" value="70" disabled />
             </div>
           </div>
-          <hr>
+          <hr />
           <div class="row">
             <h5 class="fw-bold mb-3">Others</h5>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-4 my-2">
               <label class="fw-bold">Docsify</label>
-              <input type="range" class="form-range" value="80" disabled>
+              <input type="range" class="form-range" value="80" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-6 col-xl-4 my-2">
               <label class="fw-bold"><i class="fa-brands fa-linux"></i> Linux</label>
-              <input type="range" class="form-range" value="80" disabled>
+              <input type="range" class="form-range" value="80" disabled />
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12 col-lg-12 col-xl-4 my-2">
               <label class="fw-bold"><i class="fa-solid fa-microchip"></i> IoT Development</label>
-              <input type="range" class="form-range" value="30" disabled>
+              <input type="range" class="form-range" value="30" disabled />
             </div>
           </div>
         </div>
@@ -176,7 +189,7 @@
     </div>
   </section>
 
-  <hr>
+  <hr />
 
   <section id="experience" class="p-4">
     <div class="container">
@@ -186,25 +199,25 @@
         </div>
         <div class="col-md-9">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card card-body">
                 <div class="row">
                   <div class="col-auto">
-                    <img src="./img/icon/aisin.svg" width="30px">
+                    <img src="./img/icon/aisin.svg" width="30px" />
                   </div>
                   <div class="col-auto">
-                    <h6 class="fw-bold">Production Operator </h6>
+                    <h6 class="fw-bold">Production Operator</h6>
                     <p class="company">PT. Aisin Indonesia</p>
                   </div>
                   <p class="year">Sept 2016 - April 2017</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card card-body">
                 <div class="row">
                   <div class="col-auto">
-                    <img src="./img/icon/lp3i.svg" width="30px">
+                    <img src="./img/icon/lp3i.svg" width="30px" />
                   </div>
                   <div class="col-auto">
                     <h6 class="fw-bold">IT Support</h6>
@@ -220,20 +233,24 @@
     </div>
   </section>
 
-  <hr>
+  <hr />
 
   <section id="portofolio" class="p-4">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-3 col-12">
-          <h5 class="fw-bold mb-4">Portofolio</h5>
-        </div>
-        <div class="col-md-9 col-12">
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <div class="card" style="width: 18rem;">
-                <a href="https://kanglerian.github.io/tarbiyah" target="_blank"><img src="./img/banner/banner-tsl.jpg" class="card-img-top"></a>
-                <a href="https://github.com/kanglerian/tarbiyah/blob/master/README.md" target="_blank" class="btn btn-primary btn-sm mt-3">Description</a>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <h5 class="fw-bold mb-4">Portofolio</h5>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="card">
+                  <a href="https://kanglerian.github.io/tarbiyah" target="_blank"><img src="./img/banner/banner-tsl.jpg"
+                    class="card-img-top" /></a>
+                  <a href="https://github.com/kanglerian/tarbiyah/blob/master/README.md" target="_blank"
+                  class="btn btn-primary btn-sm mt-3">Description</a>
+                </div>
               </div>
             </div>
           </div>
@@ -244,11 +261,11 @@
 
   <footer class="pt-2">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-8 text-center">
-                <p>Copyright © 2021 kanglerian. All Rights Reserved</p>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-8 text-center">
+          <p>Copyright © 2021 kanglerian. All Rights Reserved</p>
         </div>
+      </div>
     </div>
   </footer>
 
@@ -259,32 +276,60 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script> -->
   <script>
     AOS.init({
-      easing: 'ease',
+      easing: "ease",
       duration: 800,
-      once:true
+      once: true,
     });
-    gsap.from(".profile-picture",{duration:2.5, delay:0.3, rotation:20, y:-400, ease: "elastic.out(1, 0.3)"});
-    gsap.from(".profile-ahay",{duration:0.5, delay:1.5, y:200,opacity:0, ease: "power4.out(1, 0.3)"});
-    gsap.from(".profile-title",{duration:0.5, delay:1.7, y:200,opacity:0, ease: "power4.out(1, 0.3)"});
-    gsap.from("#hire",{duration:0.5, delay:1.9, y:200,opacity:0, ease: "power4.out(1, 0.3)"});
+    gsap.from(".profile-picture", {
+      duration: 2.5,
+      delay: 0.3,
+      rotation: 20,
+      y: -400,
+      ease: "elastic.out(1, 0.3)",
+    });
+    gsap.from(".profile-ahay", {
+      duration: 0.5,
+      delay: 1.5,
+      y: 200,
+      opacity: 0,
+      ease: "power4.out(1, 0.3)",
+    });
+    gsap.from(".profile-title", {
+      duration: 0.5,
+      delay: 1.7,
+      y: 200,
+      opacity: 0,
+      ease: "power4.out(1, 0.3)",
+    });
+    gsap.from("#hire", {
+      duration: 0.5,
+      delay: 1.9,
+      y: 200,
+      opacity: 0,
+      ease: "power4.out(1, 0.3)",
+    });
     $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
+      $('[data-toggle="tooltip"]').tooltip();
+    });
   </script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="./js/time.js"></script>
   <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/621c678aa34c24564128a1b5/1fsvf8u5s';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/621c678aa34c24564128a1b5/1fsvf8u5s";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
   </script>
   <!--End of Tawk.to Script-->
+  <script src="./js/javascript.js"></script>
+  <script src="./js/Object/biodata.js"></script>
 </body>
 
 </html>

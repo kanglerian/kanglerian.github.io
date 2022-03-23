@@ -3,6 +3,9 @@ body {
     font-family: 'Nunito', sans-serif;
     color: #032B45;
 }
+.hidden {
+    display: block;
+}
 .bg-time {
     background-color: rgba(50,54,83,1) !important;
 }
@@ -14,6 +17,12 @@ hr {
 }
 ul li {
     margin: 0px 10px;
+}
+#greeting {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0px;
 }
 header {
     /* background: rgb(74,93,108); */
@@ -99,3 +108,4 @@ footer p {
     color: #6e6e6e;
     font-size: 13px;
 }
+
