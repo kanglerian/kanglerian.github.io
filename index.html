@@ -7,11 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Bootstrap CSS -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link href="./css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="./css/apps.css" />
   <link rel="stylesheet" href="./css/all.min.css" />
-  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
   <title>Lerian Febriana</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body onload="">
+<body onload="setTimeout(myGreeting, 500)">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">
@@ -158,16 +156,7 @@
             <h5 class="fw-bold mb-4">Portofolio</h5>
           </div>
           <div class="col-md-9">
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                <div class="card">
-                  <a href="https://kanglerian.github.io/tarbiyah" target="_blank"><img src="./img/banner/banner-tsl.jpg"
-                    class="card-img-top" /></a>
-                  <a href="https://github.com/kanglerian/tarbiyah/blob/master/README.md" target="_blank"
-                  class="btn btn-primary btn-sm mt-3">Description</a>
-                </div>
-              </div>
-            </div>
+            <div class="row" id="contentPort"></div>
           </div>
         </div>
       </div>
@@ -187,46 +176,6 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/all.min.js"></script>
-  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script> -->
-  <script>
-    AOS.init({
-      easing: "ease",
-      duration: 800,
-      once: true,
-    });
-    gsap.from(".profile-picture", {
-      duration: 2.5,
-      delay: 0.3,
-      rotation: 20,
-      y: -400,
-      ease: "elastic.out(1, 0.3)",
-    });
-    gsap.from(".profile-ahay", {
-      duration: 0.5,
-      delay: 1.5,
-      y: 200,
-      opacity: 0,
-      ease: "power4.out(1, 0.3)",
-    });
-    gsap.from(".profile-title", {
-      duration: 0.5,
-      delay: 1.7,
-      y: 200,
-      opacity: 0,
-      ease: "power4.out(1, 0.3)",
-    });
-    gsap.from("#hire", {
-      duration: 0.5,
-      delay: 1.9,
-      y: 200,
-      opacity: 0,
-      ease: "power4.out(1, 0.3)",
-    });
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-  </script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="./js/time.js"></script>
   <script type="text/javascript">
@@ -247,6 +196,7 @@
   <script src="./js/Object/biodata.js"></script>
   <script src="./js/Object/skills.js"></script>
   <script src="./js/Object/experience.js"></script>
+  <script src="./js/Object/portofolio.js"></script>
 </body>
 
 </html>
