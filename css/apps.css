@@ -41,7 +41,6 @@ header {
     border: none;
 }
 .profile-photo {
-    background-image: url('../img/lerian.jpg');
     background-size: cover;
     width: 180px;
     height: 180px;
