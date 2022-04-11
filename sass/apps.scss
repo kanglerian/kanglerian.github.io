@@ -1,3 +1,10 @@
+@use 'keyframe' as key;
+@use 'animation' as anim;
+@use 'media' as med;
+
+@include key.keyframe;
+@include med.media;
+
 $primary-color: #353543;
 $secondary-color: #2D2D39;
 $third-color: #403F4F;
@@ -17,11 +24,7 @@ body {
 }
 .nav-link:hover {
     color: $text-white;
-    animation-name: icon;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    @include anim.animation(icon, 250ms);
 }
 header {
     margin-top: 20px;
@@ -52,11 +55,7 @@ header .underline {
 }
 .social-media:hover {
     color: $text-white;
-    animation-name: icon;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    @include anim.animation(icon, 250ms);
 }
 
 footer p {
@@ -71,11 +70,7 @@ footer p {
     background-color: $secondary-color;
     position: absolute;
     z-index: -1;
-    animation-name: circle;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    @include anim.animation(circle, 2s);
 }
 #skills {
     position: relative;
@@ -94,13 +89,7 @@ footer p {
     color: $text-white;
     margin: 10px;
 }
-#skills .card:hover {
-    animation-name: card;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
+
 #skills .card-body {
     padding: 30px;
 }
@@ -150,12 +139,8 @@ footer p {
     margin-right: 20px;
 }
 
-.company-role:hover {
-    animation-name: card;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.company-role:hover, .company-brand:hover, #skills .card:hover{
+    @include anim.animation(card, 250ms);
 }
 
 .company-desc {
@@ -165,50 +150,3 @@ footer p {
     margin-bottom: 20px;
 }
 
-.company-brand:hover {
-    animation-name: card;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes circle {
-    0% {
-        top: 0px;
-        right: 0px;
-    }
-    100% {
-        top: 100px;
-        right: 50px;
-    }
-}
-
-@keyframes card {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-3deg);
-    }
-}
-
-@keyframes icon {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-10deg);
-    }
-}
-
-@media (min-width: 768px) { 
-    header {
-        margin-top: 10px;
-    }
-    .header-title {
-        font-size: 50px;
-    }
-    .header-desc {
-        font-size: 16px;
-    }
-}

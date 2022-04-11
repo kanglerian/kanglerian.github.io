@@ -1,0 +1,32 @@
+@mixin keyframe {
+
+    @keyframes circle {
+        0% {
+            top: 0px;
+            right: 0px;
+        }
+        100% {
+            top: 100px;
+            right: 50px;
+        }
+    }
+
+    @keyframes card {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(-3deg);
+        }
+    }
+
+    @keyframes icon {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(-10deg);
+        }
+    }
+
+}

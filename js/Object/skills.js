@@ -18,10 +18,10 @@ let skills = [
 skills.forEach(skillsFunction);
 document.getElementById("contentSkills").innerHTML = textSkills;
 
-function skillsFunction(item){
+function skillsFunction(item, index){
     textSkills +=
     `<div class="col-12 col-md-4">
-        <div class="card card-body" data-aos="fade-down">
+        <div class="card card-body" data-aos="fade-down" data-aos-delay="${index}00">
             <span>${item.icon}</span>
             <h3>${item.nama}</h3>
             <p>${item.desc}</p>

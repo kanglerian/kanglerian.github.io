@@ -1,0 +1,7 @@
+@mixin animation($nama, $durasi){
+    animation-name: $nama;
+    animation-duration: $durasi;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
