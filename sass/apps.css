@@ -1,0 +1,131 @@
+body {
+  background-color: #353543;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+header {
+  margin-top: 20px;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.header-desc {
+  margin-top: 20px;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+header .underline {
+  height: 4px;
+  width: 150px;
+  background-color: orange;
+  margin-top: -5px;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #2D2D39;
+  position: absolute;
+  z-index: -1;
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+#skills .container {
+  background-color: #403F4F;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+#skills .card {
+  background-color: #353543;
+  border-radius: 30px;
+  border: none;
+  color: #FFFFFF;
+  margin: 10px;
+}
+
+#skills .card-body {
+  padding: 30px;
+}
+
+#skills .card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+#skills .card p {
+  font-weight: 100;
+  font-size: 13px;
+}
+
+#skills .card a {
+  font-weight: 100;
+  font-size: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    top: 0px;
+    right: 0px;
+  }
+  100% {
+    top: 100px;
+    right: 50px;
+  }
+}
+
+@keyframes circle {
+  0% {
+    top: 0px;
+    right: 0px;
+  }
+  100% {
+    top: 100px;
+    right: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    margin-top: 10px;
+  }
+  .header-title {
+    font-size: 50px;
+  }
+  .header-desc {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=apps.css.map */
