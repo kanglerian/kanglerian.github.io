@@ -35,6 +35,11 @@ header .underline {
   margin-top: -5px;
 }
 
+.social-media {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
 footer p {
   color: #FFFFFF;
   font-size: 13px;
