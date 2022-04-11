@@ -150,11 +150,62 @@ footer p {
   margin-top: -150px;
   background-color: #272833;
   padding-top: 200px;
+  padding-bottom: 50px;
   color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #experience h1 {
   font-weight: 600;
+}
+
+.company-name {
+  font-weight: 600;
+}
+
+.company-role {
+  background-color: #34B3FF;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 0px;
+  margin-right: 20px;
+}
+
+.company-role:hover {
+  -webkit-animation-name: card;
+          animation-name: card;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.company-desc {
+  font-size: 15px;
+  text-align: justify;
+  text-indent: 40px;
+  margin-bottom: 20px;
+}
+
+.company-brand:hover {
+  -webkit-animation-name: card;
+          animation-name: card;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 @-webkit-keyframes circle {

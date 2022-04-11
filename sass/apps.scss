@@ -3,6 +3,7 @@ $secondary-color: #2D2D39;
 $third-color: #403F4F;
 $fourth-color: #272833;
 $text-white: #FFFFFF;
+$blue-color: #34B3FF;
 $font-redHat: 'Red Hat Display', sans-serif;
 $rounded-circle: 50%;
 
@@ -125,13 +126,52 @@ footer p {
     margin-top: -150px;
     background-color: $fourth-color;
     padding-top: 200px;
+    padding-bottom: 50px;
     color: $text-white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #experience h1 {
     font-weight: 600;
 }
 
+.company-name {
+    font-weight: 600;
+}
+.company-role {
+    background-color: $blue-color;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0px;
+    margin-right: 20px;
+}
+
+.company-role:hover {
+    animation-name: card;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.company-desc {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
+
+.company-brand:hover {
+    animation-name: card;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 @keyframes circle {
     0% {
         top: 0px;

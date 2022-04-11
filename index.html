@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link href="./css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="./sass/apps.css" />
+  <link rel="stylesheet" href="./css/apps.css" />
   <link rel="stylesheet" href="./css/all.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Lerian Febriana</title>
@@ -49,9 +49,9 @@
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-6 col-lg-6">
-          <h1 class="header-title">I'm<br><span id="nama">Lerian Febriana</span></h1>
+          <h1 class="header-title">I'm<br><span id="nama"></span></h1>
           <div class="underline"></div>
-          <p class="header-desc" id="tentang">I'm a Informatics Engineer based in Kota Tasikmalaya, Indonesia. I specialise in Web Development, IT Support, IoT Development and Network Engineer. I'm always striving to grow and learn something new. I'm passionate about IoT Development and Electrical Engineering 👋</p>
+          <p class="header-desc" id="tentang"></p>
           <div id="header-social">
             <a href="https://facebook.com/kanglerian" target="_blank" class="social-media"><i class="fa-brands fa-facebook fa-2x"></i></a>
             <a href="https://twitter.com/kanglerian" target="_blank" class="social-media"><i class="fa-brands fa-twitter fa-2x"></i></a>
@@ -67,54 +67,20 @@
 
   <section id="skills">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <div class="card card-body" data-aos="fade-down">
-            <span><i class="fa-solid fa-laptop-code fa-2x"></i></span>
-            <h3>Front End Development</h3>
-            <p>Build a quality website with the best technology and optimization on search engine.</p>
-            <a href="#"><span>Show more</span> <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="card card-body" data-aos="fade-down" data-aos-delay="100">
-            <span><i class="fa-solid fa-microchip fa-2x"></i></span>
-            <h3>IoT Enthusiast</h3>
-            <p>Build a quality website with the best technology and optimization on search engine.</p>
-            <a href="#"><span>Show more</span> <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="card card-body" data-aos="fade-down" data-aos-delay="200">
-            <span><i class="fa-solid fa-screwdriver-wrench fa-2x"></i></span>
-            <h3>IT Support</h3>
-            <p>Build a quality website with the best technology and optimization on search engine.</p>
-            <a href="#"><span>Show more</span> <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
-          </div>
-        </div>
-      </div>
+      <div class="row" id="contentSkills"></div>
     </div>
   </section>
 
   <section id="experience">
     <div class="container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 text-center">
-          <h1>Experience</h1>
+          <h1 data-aos="fade-down">Experience</h1>
         </div>
       </div>
+      <div id="contentExp"></div>
     </div>
   </section>
-
-  <!-- <footer class="pt-2">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8 text-center">
-          <p>Copyright © 2021 kanglerian. All Rights Reserved</p>
-        </div>
-      </div>
-    </div>
-  </footer> -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
@@ -122,44 +88,9 @@
   <script src="./js/all.min.js"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="./js/time.js"></script>
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = "https://embed.tawk.to/621c678aa34c24564128a1b5/1fsvf8u5s";
-      s1.charset = "UTF-8";
-      s1.setAttribute("crossorigin", "*");
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
+  <script type="text/javascript" src="./js/tawk.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      // Global settings:
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-      initClassName: 'aos-init', // class applied after initialization
-      animatedClassName: 'aos-animate', // class applied on animation
-      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-      
-
-      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-      offset: 120, // offset (in px) from the original trigger point
-      delay: 0, // values from 0 to 3000, with step 50ms
-      duration: 800, // values from 0 to 3000, with step 50ms
-      easing: 'ease-in-out', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-    });
-  </script>
+  <script src="./js/aos.js"></script>
   <!--End of Tawk.to Script-->
   <script src="./js/javascript.js"></script>
   <script src="./js/Object/biodata.js"></script>
