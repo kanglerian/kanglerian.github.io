@@ -1,6 +1,7 @@
 $primary-color: #353543;
 $secondary-color: #2D2D39;
 $third-color: #403F4F;
+$fourth-color: #272833;
 $text-white: #FFFFFF;
 $font-redHat: 'Red Hat Display', sans-serif;
 $rounded-circle: 50%;
@@ -11,6 +12,14 @@ body {
 }
 .nav-link {
     color: $text-white;
+}
+.nav-link:hover {
+    color: $text-white;
+    animation-name: icon;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 header {
     margin-top: 20px;
@@ -39,7 +48,17 @@ header .underline {
 .social-media {
     color: $text-white;
     margin-right: 10px;
+    display: inline-block;
 }
+.social-media:hover {
+    color: $text-white;
+    animation-name: icon;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 footer p {
     color: $text-white;
     font-size: 13px;
@@ -58,7 +77,10 @@ footer p {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
+#skills {
+    position: relative;
+    z-index: 2;
+}
 #skills .container {
     background-color: $third-color;
     padding: 20px 30px;
@@ -71,6 +93,13 @@ footer p {
     border: none;
     color: $text-white;
     margin: 10px;
+}
+#skills .card:hover {
+    animation-name: card;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #skills .card-body {
     padding: 30px;
@@ -93,7 +122,10 @@ footer p {
     text-decoration: none;
 }
 
-
+#experience {
+    margin-top: -150px;
+    background-color: $fourth-color;
+}
 
 @keyframes circle {
     0% {
@@ -103,6 +135,24 @@ footer p {
     100% {
         top: 100px;
         right: 50px;
+    }
+}
+
+@keyframes card {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes icon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-10deg);
     }
 }
 

@@ -7,6 +7,20 @@ body {
   color: #FFFFFF;
 }
 
+.nav-link:hover {
+  color: #FFFFFF;
+  -webkit-animation-name: icon;
+          animation-name: icon;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
 header {
   margin-top: 20px;
   color: #FFFFFF;
@@ -38,6 +52,21 @@ header .underline {
 .social-media {
   color: #FFFFFF;
   margin-right: 10px;
+  display: inline-block;
+}
+
+.social-media:hover {
+  color: #FFFFFF;
+  -webkit-animation-name: icon;
+          animation-name: icon;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 footer p {
@@ -64,6 +93,11 @@ footer p {
           animation-direction: alternate;
 }
 
+#skills {
+  position: relative;
+  z-index: 2;
+}
+
 #skills .container {
   background-color: #403F4F;
   padding: 20px 30px;
@@ -76,6 +110,19 @@ footer p {
   border: none;
   color: #FFFFFF;
   margin: 10px;
+}
+
+#skills .card:hover {
+  -webkit-animation-name: card;
+          animation-name: card;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 #skills .card-body {
@@ -100,6 +147,11 @@ footer p {
   text-decoration: none;
 }
 
+#experience {
+  margin-top: -150px;
+  background-color: #272833;
+}
+
 @-webkit-keyframes circle {
   0% {
     top: 0px;
@@ -119,6 +171,50 @@ footer p {
   100% {
     top: 100px;
     right: 50px;
+  }
+}
+
+@-webkit-keyframes card {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+}
+
+@keyframes card {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+}
+
+@-webkit-keyframes icon {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+}
+
+@keyframes icon {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 }
 
