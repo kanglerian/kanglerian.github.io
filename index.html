@@ -14,42 +14,28 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body onload="setTimeout(myGreeting, 500)">
-  <nav class="navbar navbar-expand-lg navbar-light">
+<body>
+  <nav class="navbar navbar-expand">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_awftk3fs.json" background="transparent"
-          speed="1" style="width: 80px; height: 30px" loop autoplay></lottie-player>
-      </a>
+      <a class="navbar-brand" href="index.html"><lottie-player src="https://assets5.lottiefiles.com/packages/lf20_vhrxyjii.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px;" loop autoplay></lottie-player></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#intro">はじめまして 👋</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#keahlian">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portofolio">Portofolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#hobby">Tasks</a>
-          </li>
-        </ul>
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link badge bg-time text-white" id="DigitalCLOCK" onload="showTime()"></a>
+            <a class="nav-link"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa-brands fa-github fa-2x"></i></a>
           </li>
           <li class="nav-item">
             <audio autoplay loop>
-              <source src="./audio/yoasobi-1.mp3" type="audio/mpeg" />
+              <source src="./audio/yoasobi-1.mp" type="audio/mpeg" />
             </audio>
           </li>
         </ul>
@@ -57,111 +43,23 @@
     </div>
   </nav>
 
-  <header></header>
-  <p id="greeting" style="display: none"></p>
-  <section id="profile">
+  <header>
+    <div class="circle"></div>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-12">
-          <div class="row card-header justify-content-center">
-            <div class="col-md-3 col-lg-3">
-              <div class="profile-photo" id="photo"></div>
-            </div>
-            <div class="col-md-9 col-lg-5 align-self-center">
-              <h5 class="fw-bold ms-3" id="nama"></h5>
-              <p class="ms-3 text-secondary">
-                I'm a <span id="role"></span> based in <span id="based"></span> 
-              </p>
-            </div>
-            <div class="col-md-12 col-lg-4 align-self-center">
-              <a href="#portofolio" class="btn btn-outline-secondary btn-sm ms-3">View portofolio</a>
-              <button onclick="myAlert()" class="btn btn-sm ms-3" id="status">Open to Work</button>
-            </div>
-          </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-6 col-lg-6">
+          <h1 class="header-title">I'm<br>Lerian Febriana</h1>
+          <div class="underline"></div>
+          <p>A freelancer who provides services for digital programming and design content media, for all businesses with more than 10 years of experience.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 text-center">
+          <img src="./img/lerian.png" class="img-fluid"">
         </div>
       </div>
     </div>
-  </section>
+  </header>
 
-  <hr />
-
-  <section id="about" class="p-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-3">
-          <h5 class="fw-bold mb-2">About me</h5>
-        </div>
-        <div class="col-md-9">
-          <p id="aboutMe"></p>
-          <div class="about-desc">
-            <div class="row">
-              <div class="col-md-4 col-lg-4 mb-2">
-                <h6 class="fw-bold">Location</h6>
-                <a href="https://goo.gl/maps/Mpw895cRtjwgnpWu6" target="_blank" id="location"></a>
-              </div>
-              <div class="col-md-4 col-lg-4 mb-2">
-                <h6 class="fw-bold">Website</h6>
-                <a href="https://kanglerian.github.io" target="_blank" id="website"></a>
-              </div>
-              <div class="col-md-4 col-lg-4 mb-2">
-                <h6 class="fw-bold">Github</h6>
-                <a href="https://github.com/kanglerian" target="_blank" id="github"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr />
-
-  <section id="skills" class="p-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-3">
-          <h5 class="fw-bold mb-4">Skills</h5>
-        </div>
-        <div class="col-md-9">
-          <div class="row" id="contentSkills"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr />
-
-  <section id="experience" class="p-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-3">
-          <h5 class="fw-bold mb-4">Experience</h5>
-        </div>
-        <div class="col-md-9">
-          <div class="row" id="contentExp"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr />
-
-  <section id="portofolio" class="p-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <h5 class="fw-bold mb-4">Portofolio</h5>
-          </div>
-          <div class="col-md-9">
-            <div class="row" id="contentPort"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="pt-2">
+  <!-- <footer class="pt-2 fixed-bottom">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-8 text-center">
@@ -169,7 +67,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="./js/bootstrap.bundle.min.js"></script>
