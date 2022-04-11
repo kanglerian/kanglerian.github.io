@@ -1,6 +1,7 @@
 body {
   background-color: #353543;
   font-family: "Red Hat Display", sans-serif;
+  letter-spacing: 1px;
 }
 
 .nav-link {
@@ -31,7 +32,6 @@ header {
 .header-title {
   font-weight: 600;
   font-size: 40px;
-  letter-spacing: 1px;
 }
 
 .header-desc {
@@ -39,7 +39,6 @@ header {
   font-size: 13px;
   font-style: italic;
   font-weight: 400;
-  letter-spacing: 1px;
 }
 
 header .underline {
@@ -150,6 +149,12 @@ footer p {
 #experience {
   margin-top: -150px;
   background-color: #272833;
+  padding-top: 200px;
+  color: #FFFFFF;
+}
+
+#experience h1 {
+  font-weight: 600;
 }
 
 @-webkit-keyframes circle {

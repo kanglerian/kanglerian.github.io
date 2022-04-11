@@ -9,6 +9,7 @@ $rounded-circle: 50%;
 body {
     background-color: $primary-color;
     font-family: $font-redHat;
+    letter-spacing: 1px;
 }
 .nav-link {
     color: $text-white;
@@ -30,14 +31,12 @@ header {
 .header-title {
     font-weight: 600;
     font-size: 40px;
-    letter-spacing: 1px;
 }
 .header-desc {
     margin-top: 20px;
     font-size: 13px;
     font-style: italic;
     font-weight: 400;
-    letter-spacing: 1px;
 }
 header .underline {
     height: 4px;
@@ -125,6 +124,12 @@ footer p {
 #experience {
     margin-top: -150px;
     background-color: $fourth-color;
+    padding-top: 200px;
+    color: $text-white;
+}
+
+#experience h1 {
+    font-weight: 600;
 }
 
 @keyframes circle {
