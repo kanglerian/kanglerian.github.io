@@ -10,6 +10,7 @@ $secondary-color: #2D2D39;
 $third-color: #403F4F;
 $fourth-color: #272833;
 $text-white: #FFFFFF;
+$text-gray: #93919b;
 $blue-color: #34B3FF;
 $font-redHat: 'Red Hat Display', sans-serif;
 $rounded-circle: 50%;
@@ -148,5 +149,6 @@ footer p {
     text-align: justify;
     text-indent: 40px;
     margin-bottom: 20px;
+    color: $text-gray;
 }
 
