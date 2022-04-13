@@ -202,4 +202,42 @@ footer p {
   color: #93919b;
 }
 
+#portofolio {
+  padding-top: 60px;
+  background-color: #403F4F;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.port-container {
+  padding: 30px 0 0 30px;
+  background-color: #2D2D39;
+  border-radius: 30px;
+  margin: 20px 10px;
+}
+
+.port-image {
+  width: 100%;
+  height: 160px;
+  background-color: #34B3FF;
+  border-radius: 20px 0px 30px 0px;
+}
+
+#portofolio h6 {
+  font-weight: 700;
+  color: #FFC700;
+}
+
+#portofolio span {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=apps.css.map */

@@ -1,16 +1,38 @@
 let textPort = "";
 let portofolio = [
     {
-        nama: "Tarbiyah Sunnah Learing",
+        nama: "Tarbiyah Sunnah Learning",
         sampul: "banner-tsl.jpg",
+        tipe: "Front End Development",
         linkApps: "https://kanglerian.github.io/tarbiyah",
         deskripsi: "https://github.com/kanglerian/tarbiyah/blob/master/README.md",
-    }
+    },
+    {
+        nama: "Tarbiyah Sunnah Learning",
+        sampul: "banner-tsl.jpg",
+        tipe: "Front End Development",
+        linkApps: "https://kanglerian.github.io/tarbiyah",
+        deskripsi: "https://github.com/kanglerian/tarbiyah/blob/master/README.md",
+    },
+    {
+        nama: "Tarbiyah Sunnah Learning",
+        sampul: "banner-tsl.jpg",
+        tipe: "Front End Development",
+        linkApps: "https://kanglerian.github.io/tarbiyah",
+        deskripsi: "https://github.com/kanglerian/tarbiyah/blob/master/README.md",
+    },
 ];
 
 portofolio.forEach(portFunction);
 document.getElementById("contentPort").innerHTML = textPort;
 
-function portFunction(item){
-    textPort += `<div class="col-12 col-md-6 col-lg-6 col-xl-6"><div class="card"><a href="${item.linkApps}" target="_blank"><img src="./img/banner/${item.sampul}" class="card-img-top"/></a><a href="${item.deskripsi}" target="_blank" class="btn btn-primary btn-sm mt-3">Description</a></div></div>`
+function portFunction(item, index){
+    textPort += `
+        <div class="col-md-4 col-12">
+            <div class="port-container" data-aos="fade-down" data-aos-delay="${index}00">
+                <h6>${item.tipe}</h6>
+                <span>${item.nama}</span>
+                <a href="${item.linkApps}" target="_blank"><div class="port-image" style="background-image:url('./img/banner/${item.sampul}')"></div></a>
+            </div>
+        </div>`
 }
