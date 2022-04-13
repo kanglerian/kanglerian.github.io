@@ -6,7 +6,7 @@ let experience = [
         tahunBergabung: "Sept 2018",
         tahunSelesai: "Present",
         logo: "aisin.svg",
-        deskripsi: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        deskripsi: "Jobdesc yang dilakukan adalah melakukan maintenance komputer secara berkala, melakukan troubleshooting dan instalasi hardware & software."
     },
     {
         nama: "PT. Aisin Indonesia",
@@ -14,7 +14,7 @@ let experience = [
         tahunBergabung: "Sept 2016",
         tahunSelesai: "April 2017",
         logo: "aisin.svg",
-        deskripsi: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        deskripsi: "Jobdesc yang dilakukan adalah melakukan perakitan doorhinge, memastikan stock komponen doorhinge tersedia, melakukan pengambilan komponen secara berkala, mengatur stock komponen dan pesanan agar tidak melebihi permintaan."
     }
 ];
 
