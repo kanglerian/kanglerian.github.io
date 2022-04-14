@@ -6,34 +6,12 @@ let portofolio = [
         tipe: "Front End Development",
         linkApps: "https://kanglerian.github.io/tarbiyah",
         deskripsi: "https://github.com/kanglerian/tarbiyah/blob/master/README.md",
-    },
-    {
-        nama: "Links Apps",
-        sampul: "banner-tsl.jpg",
-        tipe: "Front End Development",
-        linkApps: "https://kanglerian.github.io/tarbiyah",
-        deskripsi: "https://github.com/kanglerian/links",
-    },
-    {
-        nama: "Daily Apps",
-        sampul: "banner-tsl.jpg",
-        tipe: "Front End Development",
-        linkApps: "https://kanglerian.github.io/daily/",
-        deskripsi: "https://github.com/kanglerian/daily",
-    },
-    {
-        nama: "Dirgahayu RI 77",
-        sampul: "banner-tsl.jpg",
-        tipe: "Front End Development",
-        linkApps: "https://codepen.io/kanglerian/pen/LYeQPZo",
-        deskripsi: "https://github.com/kanglerian/kanglerian-v2",
-    },
-    {
-        nama: "Eid Mubarak 1443H",
-        sampul: "banner-tsl.jpg",
-        tipe: "Front End Development",
-        linkApps: "https://codepen.io/kanglerian/pen/mdpXyGZ",
-        deskripsi: "https://github.com/kanglerian/kanglerian-v2",
+    },{
+        nama: "Aplikasi Perpustakaan",
+        sampul: "",
+        tipe: "Full Stack Development",
+        linkApps: "https://library.codalecenter.com/",
+        deskripsi: "https://github.com/kanglerian/codale-library",
     },
 ];
 
