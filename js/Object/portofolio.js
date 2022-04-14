@@ -1,11 +1,11 @@
 let textPort = "";
 let portofolio = [
     {
-        nama: "Tarbiyah Sunnah Learning",
+        nama: "Links Apps",
         sampul: "",
         tipe: "Front End Development",
-        linkApps: "https://kanglerian.github.io/tarbiyah",
-        deskripsi: "https://github.com/kanglerian/tarbiyah/blob/master/README.md",
+        linkApps: "https://kanglerian.github.io/links",
+        deskripsi: "https://github.com/kanglerian/links",
     },{
         nama: "Aplikasi Perpustakaan",
         sampul: "",
