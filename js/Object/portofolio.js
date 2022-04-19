@@ -12,7 +12,13 @@ let portofolio = [
         tipe: "Full Stack Development",
         linkApps: "https://library.codalecenter.com/",
         deskripsi: "https://github.com/kanglerian/codale-library",
-    },
+    },{
+        nama: "Aplikasi Cetak Photo",
+        sampul: "",
+        tipe: "Front End Development",
+        linkApps: "https://kanglerian.github.io/cetak-photo",
+        deskripsi: "https://github.com/kanglerian/cetak-photo",
+    }
 ];
 
 portofolio.forEach(portFunction);
