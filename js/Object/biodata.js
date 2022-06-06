@@ -3,8 +3,8 @@ let person = {
     lastName: "Febriana",
     title: "A.Md.Kom",
     based: "Kota Tasikmalaya, Indonesia",
-    aboutMe: "I'm a Informatics Engineer based in Kota Tasikmalaya, Indonesia. I specialise in Web Development, IT Support, IoT Development and Network Engineer. I'm always striving to grow and learn something new. I'm passionate about IoT Development and Electrical Engineering 👋"
+    aboutMe: "I'm a Software Engineer based in Tasikmalaya City, Indonesia. I specialise in Web Development and IT Support. I'm always striving to grow and learn something new. I'm interested about IoT Development and Electrical Engineering 👋"
 }
 
-document.getElementById("nama").innerHTML = person.firstName + " " + person.lastName;
+document.getElementById("nama").innerHTML = `${person.firstName} ${person.lastName},${person.title}`;
 document.getElementById("tentang").innerHTML = person.aboutMe;
