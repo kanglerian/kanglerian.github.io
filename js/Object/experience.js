@@ -5,7 +5,7 @@ let experience = [
         jabatan: "IT Support",
         tahunBergabung: "Sept 2018",
         tahunSelesai: "Present",
-        logo: "aisin.svg",
+        logo: "lp3i.svg",
         deskripsi: "Jobdesc yang dilakukan adalah melakukan maintenance komputer secara berkala, melakukan troubleshooting dan instalasi hardware & software."
     },
     {
@@ -23,15 +23,14 @@ document.getElementById("contentExp").innerHTML = textExp;
 
 function expFunction(item){
     textExp += 
-    `<div class="row my-5 justify-content-center align-items-center" data-aos="fade-down" data-aos-delay="100">
-        <div class="col-md-8 col-12">
-            <h3 class="company-name">${item.nama}</h3>
-            <span class="company-role">${item.jabatan}</span>
-            <span class="company-year"><i class="fa-solid fa-calendar-days"></i> ${item.tahunBergabung} - ${item.tahunSelesai}</span>
-            <p class="company-desc">${item.deskripsi}</p>
+    `
+    <div class="col-md-6 col-12" data-aos="fade-down" data-aos-delay="${index}00">
+      <div class="card card-body">
+        <div class="content">
+          <img src="/img/icon/${item.logo}" class="img-exp">
+          <span class="title-exp">${item.nama}</span>
+          <p class="desc-exp">${item.deskripsi}</p>
         </div>
-        <div class="col-md-4 col-12 text-center" data-aos="fade-down" data-aos-delay="200">
-            <img src="./img/icon/${item.logo}" class="img-fluid company-brand">
-        </div>
+      </div>
     </div>`
 }
