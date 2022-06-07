@@ -1,7 +1,7 @@
 let textSkills = "";
 let skills = [
     {
-        nama: "Front End Development",
+        nama: "Back End Development",
         icon: `<i class="fa-solid fa-laptop-code fa-2x"></i>`,
         desc: "Build a quality website with the best technology and optimization on search engine."
     },{
