@@ -1,33 +1,26 @@
-name: Deploy to GitHub Pages
-
+name: Github Actions Demo
+run-name: ${{ github.actor }}
 on:
   push:
     branches:
-      - master  # Sesuaikan dengan nama branch utama Anda
-
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-
       - name: Install dependencies
         run: npm install
-
       - name: Build project
         run: npm run build
-
       - name: Deploy to GitHub Pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEPLOY }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
