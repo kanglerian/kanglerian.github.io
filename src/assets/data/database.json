@@ -1,0 +1,267 @@
+{
+  "projects": [
+    {
+      "name": "E-PMB Politeknik LP3I",
+      "icons": [
+        {
+          "icon": "fa-laravel"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "SBPMB LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Helpdesk ICT LP3I",
+      "icons": [
+        {
+          "icon": "fa-html5"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        },
+        {
+          "icon": "fa-react"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Whatsapp Sender",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-html5"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "E-Suggestion LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-telegram"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "E-Presence LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Website Politeknik LP3I Tasikmalaya",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "tools": [
+    {
+      "name": "fa-react",
+      "id": 1
+    },
+    {
+      "name": "fa-node",
+      "id": 2
+    },
+    {
+      "name": "fa-laravel",
+      "id": 3
+    },
+    {
+      "name": "fa-github",
+      "id": 4
+    },
+    {
+      "name": "fa-square-git",
+      "id": 5
+    },
+    {
+      "name": "fa-docker",
+      "id": 6
+    },
+    {
+      "name": "fa-windows",
+      "id": 7
+    },
+    {
+      "name": "fa-html5",
+      "id": 8
+    },
+    {
+      "name": "fa-react",
+      "id": 9
+    },
+    {
+      "name": "fa-square-js",
+      "id": 10
+    },
+    {
+      "name": "fa-linux",
+      "id": 11
+    },
+    {
+      "name": "fa-vuejs",
+      "id": 12
+    },
+    {
+      "name": "fa-ubuntu",
+      "id": 13
+    },
+    {
+      "name": "fa-sass",
+      "id": 14
+    },
+    {
+      "name": "fa-php",
+      "id": 15
+    },
+    {
+      "name": "fa-npm",
+      "id": 16
+    },
+    {
+      "name": "fa-jenkins",
+      "id": 17
+    },
+    {
+      "name": "fa-debian",
+      "id": 18
+    },
+    {
+      "name": "fa-css3-alt",
+      "id": 19
+    },
+    {
+      "name": "fa-cpanel",
+      "id": 20
+    },
+    {
+      "name": "fa-bootstrap",
+      "id": 21
+    },
+    {
+      "name": "fa-raspberry-pi",
+      "id": 22
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "Politeknik LP3I Kampus Tasikmalaya",
+      "id": 1
+    },
+    {
+      "title": "IT Support",
+      "company": "Politeknik LP3I Kampus Tasikmalaya",
+      "id": 2
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Freelance",
+      "id": 3
+    }
+  ]
+}
