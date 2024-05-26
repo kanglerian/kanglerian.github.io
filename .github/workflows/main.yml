@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '14'
 
       - name: Install dependencies
         run: npm install
@@ -35,5 +35,4 @@ jobs:
           rm -rf dist
           git add .
           git commit -m "Deploy to GitHub Pages"
-          git remote set-url origin https://github.com/${GITHUB_REPOSITORY}.git
           git push -f origin gh-pages
