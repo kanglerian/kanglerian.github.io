@@ -1,4 +1,4 @@
-name: Github Actions Demo
+name: Github Personal Website
 run-name: ${{ github.actor }}
 on:
   push:
