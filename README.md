@@ -1,8 +1,22 @@
-# React + Vite
+## Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Lerian Febriana Personal Website Application is a platform designed to introduce yourself professionally, including information about education, technology skills, and work experience. This website is also equipped with productivity features such as Pomodoro and Todo List to help visitors manage time and tasks more efficiently.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Stacks
+
+- NextJS
+- TailwindCSS
+- JavaScript
+- Lottie Files
+
+## Instalasi
+
+```bash
+npm install
+npm dev
+```
+
+## License
+
+Aplikasi ini adalah perangkat lunak berpemilik dan tidak bersifat open source. Semua hak dilindungi. Untuk pertanyaan mengenai lisensi, silakan hubungi [kanglerian@gmail.com](mailto:kanglerian@gmail.com).
