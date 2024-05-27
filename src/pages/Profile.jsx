@@ -25,6 +25,7 @@ const Profile = () => {
         <section className='flex flex-wrap justify-center items-center gap-2'>
           <a href="https://instagram.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-instagram"></i> Instagram</a>
           <a href="https://github.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-github"></i> Github</a>
+          <a href="https://youtube.com/c/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-youtube"></i> Youtube</a>
         </section>
       </header>
     </main>
