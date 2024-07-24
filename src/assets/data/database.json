@@ -26,7 +26,7 @@
           "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "description": "Aplikasi PMB Online adalah sebuah platform yang dirancang untuk memfasilitasi proses penerimaan mahasiswa baru. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk siswa, presenter, dan admin dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -47,7 +47,20 @@
           "icon": "fa-js"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Aplikasi SB-PMB Online adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -71,7 +84,20 @@
           "icon": "fa-react"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Aplikasi Helpdesk ICT adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -98,7 +124,20 @@
           "icon": "fa-whatsapp"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Aplikasi Whatsapp Sender adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -119,7 +158,20 @@
           "icon": "fa-telegram"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Aplikasi E-Suggestion LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -140,7 +192,20 @@
           "icon": "fa-whatsapp"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Aplikasi E-Presence LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"
@@ -161,7 +226,20 @@
           "icon": "fa-whatsapp"
         }
       ],
-      "description": "Lorem ipsum dolor sit amet",
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+        }
+      ],
+      "description": "Website LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
       "author": [
         {
           "name": "Lerian Febriana, A.Md.Kom"

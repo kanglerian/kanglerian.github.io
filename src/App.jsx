@@ -5,6 +5,7 @@ import ToolsIcon from './assets/icons/tools.svg'
 import laptopCodeIcon from './assets/icons/laptop-code.svg'
 import DatabaseJSON from './assets/data/database.json'
 import DetailPortofolio from './components/DetailPortofolio'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -37,9 +38,18 @@ const App = () => {
             <p className='text-gray-200 text-sm'>@kanglerian . Indonesian 🇮🇩 . Software Engineer . Anak IT</p>
           </div>
           <section className='flex flex-wrap justify-center items-center gap-2'>
-            <a href="https://instagram.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-instagram"></i> Instagram</a>
-            <a href="https://github.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-github"></i> Github</a>
-            <a href="https://youtube.com/c/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2'><i className="fa-brands fa-youtube"></i> Youtube</a>
+            <a href="https://instagram.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+              <FontAwesomeIcon icon="fa-brands fa-instagram" size='md' />
+              <span>Instagram</span>
+            </a>
+            <a href="https://github.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+              <FontAwesomeIcon icon="fa-brands fa-github" size='md' />
+              <span>Github</span>
+            </a>
+            <a href="https://youtube.com/c/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+              <FontAwesomeIcon icon="fa-brands fa-youtube" size='md' />
+              <span>Youtube</span>
+            </a>
           </section>
         </header>
       </section>
@@ -51,7 +61,7 @@ const App = () => {
                 {
                   tools.map((tool, key) =>
                     <div className='text-gray-300' key={key}>
-                      <i className={`fa-brands ${tool.name} fa-4x`}></i>
+                      <FontAwesomeIcon icon={`fa-brands ${tool.name}`} size='4x' />
                     </div>
                   )
                 }
@@ -67,33 +77,42 @@ const App = () => {
           <header className='text-center'>
             <h2 className='flex justify-center items-center gap-3 text-2xl font-bold'>
               <img loading="lazy" src={laptopCodeIcon} alt="" className='w-7 h-7' />
-              <span className='text-white'>Portofolio Project</span>
+              <span className='text-white'>Portofolio Projects</span>
             </h2>
           </header>
-          <DetailPortofolio content={portofolio} />
           {
-            projects.length > 0 ? (
-              <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
-                {
-                  projects.map((project, key) =>
-                    <div key={key}>
-                      <div className='bg-sky-600 h-52'></div>
-                      <div className='flex justify-between items-center bg-sky-900 px-5 py-3'>
-                        <button type='button' onClick={() => handleShow(project.id)} className='text-white hover:text-sky-200 text-sm'>{project.name}</button>
-                        <div className='text-sky-200 space-x-2'>
-                          {
-                            project.icons.map((icon, key) =>
-                              <i key={key} className={`fa-brands ${icon.icon}`}></i>
-                            )
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  )
-                }
+            show ? (
+              <div>
+                <button type='button' onClick={() => setShow(false)} className='inline-block text-sm px-5 py-2.5 mb-3 transition-all ease-in-out rounded-xl space-x-1 text-white bg-slate-800 hover:bg-slate-900'>
+                  <FontAwesomeIcon icon="fa-solid fa-angle-left" />
+                  <span>Kembali</span>
+                </button>
+                <DetailPortofolio content={portofolio} />
               </div>
             ) : (
-              <p className='text-gray-300 text-center text-sm'>No project yet.</p>
+              projects.length > 0 ? (
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+                  {
+                    projects.map((project, key) =>
+                      <div key={key}>
+                        <div className='bg-sky-600 h-52'></div>
+                        <div className='flex justify-between items-center bg-sky-900 px-5 py-3'>
+                          <button type='button' onClick={() => handleShow(project.id)} className='text-white hover:text-sky-200 text-sm'>{project.name}</button>
+                          <div className='text-sky-200 space-x-2'>
+                            {
+                              project.icons.map((icon, key) =>
+                                <i key={key} className={`fa-brands ${icon.icon}`}></i>
+                              )
+                            }
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  }
+                </div>
+              ) : (
+                <p className='text-gray-300 text-center text-sm'>No project yet.</p>
+              )
             )
           }
         </div>
