@@ -246,6 +246,38 @@
         }
       ],
       "id": 7
+    },
+    {
+      "name": "Beasiswa PPO - LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        }
+      ],
+      "screenshots": [
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/beasiswappo-register.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/beasiswappo-login.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/beasiswappo-dashboard.png"
+        },{
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/beasiswappo-form.png"
+        }
+      ],
+      "description": "Web Apps Beasiswa PPO LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 7
     }
   ],
   "tools": [
