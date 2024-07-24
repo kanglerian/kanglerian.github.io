@@ -95,7 +95,7 @@ const App = () => {
                   {
                     projects.map((project, key) =>
                       <div key={key}>
-                        <div className='bg-sky-600 h-52'></div>
+                        <div className='bg-sky-600 h-52 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${project.screenshots[0].screenshot})` }}></div>
                         <div className='flex justify-between items-center bg-sky-900 px-5 py-3'>
                           <button type='button' onClick={() => handleShow(project.id)} className='text-white hover:text-sky-200 text-sm'>{project.name}</button>
                           <div className='text-sky-200 space-x-2'>
