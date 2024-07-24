@@ -216,15 +216,22 @@
       ],
       "screenshots": [
         {
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-karyawan.png"
+        },
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-karyawan.png"
+        },
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-reguler.png"
+        },
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-fasilitas.png"
+        },
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-pusatkarir.png"
+        },
+        {
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/website-cms.png"
         }
       ],
       "description": "Website LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
