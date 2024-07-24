@@ -14,10 +14,17 @@ const DetailPortofolio = (props) => {
   }, [props.content]);
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-      <div className='bg-sky-200'>
+      <div className='bg-slate-900 p-4'>
         {
           data.name &&
-          <img src={data.screenshots[0].screenshot} alt="" />
+          <>
+            <img src={data.screenshots[0].screenshot} alt="" />
+            <div className='grid grid-cols-4 gap-2 mt-2'>
+              {data.screenshots.map((screenshot, index) => (
+                <div key={index} className="h-28 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${screenshot.screenshot})` }}></div>
+              ))}
+            </div>
+          </>
         }
       </div>
       <div className='bg-sky-300'>
