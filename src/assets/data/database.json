@@ -178,15 +178,11 @@
       ],
       "screenshots": [
         {
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-welcome.png"
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/presence-result.png"
         },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-dashboard.png"
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/presence-scan.png"
         },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-database.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-login.png"
-        },{
-          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/pmbonline-register.png"
+          "screenshot": "https://raw.githubusercontent.com/kanglerian/kanglerian.github.io/master/public/images/presence-data.png"
         }
       ],
       "description": "Aplikasi E-Presence LP3I adalah sebuah platform yang dirancang untuk memfasilitasi proses seleksi beasiswa mahasiswa baru dengan tipe tes CAT. Aplikasi ini memiliki beberapa halaman utama yang ditujukan untuk seleksi beasiswa, biodata, keluarga, dan upload berkas dengan berbagai fitur yang lengkap.",
