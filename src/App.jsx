@@ -6,7 +6,6 @@ import laptopCodeIcon from './assets/icons/laptop-code.svg'
 import DatabaseJSON from './assets/data/database.json'
 import DetailPortofolio from './components/DetailPortofolio'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { gsap } from 'gsap';
 
 const App = () => {
 
@@ -28,16 +27,6 @@ const App = () => {
 
   useEffect(() => {
     getDatabase();
-    gsap.from('#profile', {
-      y: -500,
-      rotate: 150,
-    });
-    gsap.to('#profile', {
-      duration: 3.5,
-      rotate: 0,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
   }, []);
 
   return (
