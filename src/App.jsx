@@ -32,72 +32,8 @@ const App = () => {
       y: -500,
       rotate: 150,
     });
-    gsap.from('#profile-name', {
-      y: -800,
-    });
-    gsap.from('#profile-desc', {
-      opacity: 0,
-      y: -800,
-    });
-    gsap.from('#link-1', {
-      y: -800,
-      rotate: 150,
-    });
-    gsap.from('#link-2', {
-      y: -800,
-      rotate: 150,
-    });
-    gsap.from('#link-3', {
-      y: -800,
-      rotate: 150,
-    });
-    gsap.from('#link-4', {
-      y: -800,
-      rotate: 150,
-    });
     gsap.to('#profile', {
       duration: 3.5,
-      rotate: 0,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#profile-name', {
-      duration: 3.5,
-      delay: 0.2,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#profile-desc', {
-      duration: 3.5,
-      delay: 0.3,
-      opacity: 1,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#link-1', {
-      duration: 3.5,
-      delay: 0.6,
-      rotate: 0,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#link-2', {
-      duration: 3.5,
-      delay: 0.7,
-      rotate: 0,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#link-3', {
-      duration: 3.5,
-      delay: 0.8,
-      rotate: 0,
-      y: 0,
-      ease: "elastic.out(1,0.2)"
-    });
-    gsap.to('#link-4', {
-      duration: 3.5,
-      delay: 0.9,
       rotate: 0,
       y: 0,
       ease: "elastic.out(1,0.2)"
@@ -105,7 +41,7 @@ const App = () => {
   }, []);
 
   return (
-    <main>
+    <main className='h-screen'>
       <section className="flex flex-col justify-center items-center bg-slate-950 h-screen">
         <header className='flex flex-col justify-center items-center gap-5'>
           <img id='profile' loading="lazy" src={ManImage} alt="Lerian Febriana, A.Md.Kom" className='w-32 h-32' />
@@ -197,9 +133,6 @@ const App = () => {
           }
         </div>
       </section> */}
-      <footer className='py-3 bg-slate-900'>
-        <p className='text-xs text-center text-gray-300'>Copyright © 2024 Lerian Febriana. All rights reserved.</p>
-      </footer>
     </main>
   )
 }
