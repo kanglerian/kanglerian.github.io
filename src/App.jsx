@@ -32,16 +32,12 @@ const App = () => {
       <section className="flex flex-col justify-center items-center bg-slate-950 h-screen">
         <header className='flex flex-col justify-center items-center gap-5'>
           <img loading="lazy" src={ManImage} alt="Lerian Febriana, A.Md.Kom" className='w-32 h-32' />
-          <div className='max-w-3xl flex flex-col justify-center gap-2 text-center px-5 md:px-0'>
+          <div className='max-w-xl flex flex-col justify-center gap-2 text-center px-5 md:px-0'>
             <h1 className='text-white font-bold text-xl'>Lerian Febriana, A.Md.Kom</h1>
-            <p className='text-gray-200 text-sm'>🌿 Hi there! I&apos;m Lerian, a nature enthusiast and IT enthusiast from Indonesia 🇮🇩. I&apos;m passionate about digging into tech and aiming to become an IT expert. Currently working as a Software Engineer. Follow me @kanglerian!</p>
-            <p className='text-gray-200 text-sm'>Software Engineer . @kanglerian . Indonesian 🇮🇩</p>
+            <p className='text-gray-200 text-sm'>🌿 Hi there! I&apos;m Lerian, a nature enthusiast and IT enthusiast from Indonesia. I&apos;m passionate about digging into tech and aiming to become an IT expert.</p>
+            <p className='text-gray-200 text-sm'>Indonesian 🇮🇩</p>
           </div>
           <section className='flex flex-wrap justify-center items-center gap-2'>
-            <a href="https://instagram.com/kanglerian.dev" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
-              <FontAwesomeIcon icon="fa-brands fa-instagram" size='md' />
-              <span>Instagram</span>
-            </a>
             <a href="https://github.com/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
               <FontAwesomeIcon icon="fa-brands fa-github" size='md' />
               <span>Github</span>
