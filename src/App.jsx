@@ -43,14 +43,14 @@ const App = () => {
               <FontAwesomeIcon icon="fa-brands fa-github" size='md' />
               <span>Github</span>
             </a>
-            <a id='link-2' href="https://youtube.com/c/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+            {/* <a id='link-2' href="https://youtube.com/c/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
               <FontAwesomeIcon icon="fa-brands fa-youtube" size='md' />
               <span>Youtube</span>
-            </a>
-            <a id='link-3' href="https://manabispace.blogspot.com" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+            </a> */}
+            {/* <a id='link-3' href="https://manabispace.blogspot.com" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
               <FontAwesomeIcon icon="fa-brands fa-blogger-b" size='md' />
               <span>Blogger</span>
-            </a>
+            </a> */}
             <a id='link-4' href="https://www.linkedin.com/in/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
               <FontAwesomeIcon icon="fa-brands fa-linkedin" size='md' />
               <span>Linkedin</span>
