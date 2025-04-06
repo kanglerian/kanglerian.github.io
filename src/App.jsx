@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import ManImage from './assets/images/man.png'
+import GhibliImage from './assets/images/ghibli.jpg'
 import BriefcaseIcon from './assets/icons/briefcase.svg'
 import ToolsIcon from './assets/icons/tools.svg'
 import laptopCodeIcon from './assets/icons/laptop-code.svg'
@@ -33,7 +33,7 @@ const App = () => {
     <main className='h-screen'>
       <section className="flex flex-col justify-center items-center bg-slate-950 h-screen">
         <header className='flex flex-col justify-center items-center gap-5'>
-          <img id='profile' loading="lazy" src={ManImage} alt="Lerian Febriana" className='w-32 h-32' />
+          <img id='profile' loading="lazy" src={GhibliImage} alt="Lerian Febriana" className='w-32 h-32 rounded-full border-4 border-gray-700' />
           <div className='max-w-xl flex flex-col justify-center gap-2 text-center px-5 md:px-0'>
             <h1 id='profile-name' className='text-white font-bold text-xl'>Lerian Febriana</h1>
             <p id='profile-desc' className='text-gray-200 text-sm'>🌿 Hi there! I&apos;m Lerian, a nature enthusiast and IT enthusiast from Indonesia. I&apos;m passionate about digging into tech and aiming to become an IT expert.<br/>Indonesian 🇮🇩</p>
@@ -51,10 +51,10 @@ const App = () => {
               <FontAwesomeIcon icon="fa-brands fa-blogger-b" size='md' />
               <span>Blogger</span>
             </a> */}
-            <a id='link-4' href="https://www.linkedin.com/in/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
+            {/* <a id='link-4' href="https://www.linkedin.com/in/kanglerian" target='_blank' className='inline-block text-sm text-white hover:text-black hover:bg-white border border-gray-200 px-5 py-2 space-x-1'>
               <FontAwesomeIcon icon="fa-brands fa-linkedin" size='md' />
               <span>Linkedin</span>
-            </a>
+            </a> */}
           </section>
         </header>
       </section>
