@@ -35,7 +35,7 @@ const App = () => {
         <header className='flex flex-col justify-center items-center gap-5'>
           <img id='profile' loading="lazy" src={GhibliImage} alt="Lerian Febriana" className='w-32 h-32 rounded-full border-4 border-gray-700' />
           <div className='max-w-xl flex flex-col justify-center gap-2 text-center px-5 md:px-0'>
-            <h1 id='profile-name' className='text-white font-bold text-xl'>Lerian Febriana</h1>
+            <h1 id='profile-name' className='text-white font-bold text-xl'>レリアンーフェブリアナ</h1>
             <p id='profile-desc' className='text-gray-200 text-sm'>🌿 Hi there! I&apos;m Lerian, a nature enthusiast and IT enthusiast from Indonesia. I&apos;m passionate about digging into tech and aiming to become an IT expert.<br/>Indonesian 🇮🇩</p>
           </div>
           <section className='flex flex-wrap justify-center items-center gap-2'>
