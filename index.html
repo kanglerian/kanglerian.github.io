@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiranai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/output.css">
+  <style>
+    body {
+      font-family: "Source Code Pro", monospace;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <nav class="max-w-7xl mx-auto p-5">
+    <ul class="flex items-center gap-2">
+      <li>
+        <button type="button" onclick="redirectSite(`/`)" class="bg-gray-300 hover:bg-gray-400 transition-all ease-in-out cursor-pointer font-medium px-3 py-2 rounded-lg text-sm">Home</button>
+      </li>
+      <li>
+        <button type="button" onclick="redirectSite(`https://forms.gle/JjLZKEDqniNfGiuh6`)" class="bg-gray-300 hover:bg-gray-400 transition-all ease-in-out cursor-pointer font-medium px-3 py-2 rounded-lg text-sm">Journaling</button>
+      </li>
+    </ul>
+  </nav>
+  <header class="max-w-7xl mx-auto p-5">
+    <h1 class="font-bold text-lg">Lerian Febriana</h1>
+    <p class="italic">Programmers.</p>
+    <a href="mailto:kanglerian@gmail.com" class="inline-block mt-3 text-sm border border-gray-400 text-gray-800 hover:bg-gray-800 hover:text-gray-100 px-3 py-1.5">Send Email?</a>
+  </header>
+  <main class="max-w-7xl mx-auto p-5">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto illum quidem atque, voluptates quia ut iste tempore delectus a quasi sequi, quod est repudiandae porro eveniet sunt natus reiciendis explicabo molestias consectetur nobis fuga modi nisi? Doloremque consequuntur minima delectus quos aspernatur! Voluptatibus ducimus numquam magnam perspiciatis modi fugiat repellendus quasi? Excepturi reprehenderit voluptatibus iusto iure ducimus, dicta corrupti rerum temporibus sequi magni tempore officia totam aliquam quidem quo? Enim quibusdam illum voluptates, quasi expedita similique iure ab totam? Ipsam eligendi, maxime recusandae vero labore nesciunt amet aliquid debitis ipsa iste dolores modi veritatis, voluptates provident, nostrum autem? Eveniet, rem!</p>
+  </main>
+  <footer class="max-w-7xl mx-auto p-5">
+    <p class="text-xs text-gray-500">&copy; 2025 Lerian Febriana. All rights reserved.</p>
+  </footer>
+  <script>
+    function redirectSite(site) {
+      window.location.href = site;
+    }
+  </script>
+</body>
+
+</html>

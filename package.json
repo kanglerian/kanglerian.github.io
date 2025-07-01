@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "name": "kanglerian.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kanglerian",
+  "license": "ISC"
+}
