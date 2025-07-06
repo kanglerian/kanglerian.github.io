@@ -24,7 +24,6 @@
     --text-lg--line-height: calc(1.75 / 1.125);
     --font-weight-medium: 500;
     --font-weight-bold: 700;
-    --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
@@ -191,8 +190,8 @@
   .inline-block {
     display: inline-block;
   }
-  .max-w-7xl {
-    max-width: var(--container-7xl);
+  .max-w-xl {
+    max-width: var(--container-xl);
   }
   .cursor-pointer {
     cursor: pointer;
@@ -232,8 +231,14 @@
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .text-lg {
     font-size: var(--text-lg);
